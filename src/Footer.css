@@ -1,0 +1,27 @@
+*{
+    box-sizing : border-box;
+}
+
+
+.footer{
+    background-color:rgb(245, 244, 247);
+    border-top: 2px solid black;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 40px;
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.brand-name{
+    font-size:2.5em;
+    font-style: italic;
+    font-weight: 600;
+    color: black;
+}
+.brand-mail{
+    font-size:1.3em;
+}
